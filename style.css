@@ -1,0 +1,220 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* @@ */
+/* ************************************** */
+/* ************************************** */
+/* ************************************** */
+/*  flexbox et barre de navigation*/
+
+.dic {
+  /* change de colonne en ligne par defaut */
+  display: flex;
+  /* pour voir le conteneur */
+  border: 10px solid rgb(234, 151, 91);
+  height: 70px;
+  background-color: #d4780f;
+  position: sticky;
+  top: 0px;
+  /* inverse */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column-reverse; */
+  /* place tout a droite */
+  /* justify-content: flex-end; */
+  /* ca marche sans enlever la ligne prec */
+  justify-content: center;
+  /* justify-content: space-between; */
+  /* espacer partout */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+
+  /* align-items: flex-end; */
+  /* align-items: center; */
+  /* align-content: center; */
+  /* ca marche avec wrap  */
+  /* flex-wrap: wrap-reverse; */
+  /* column-gap: 1em; */
+  /* row-gap: 2em; */
+}
+
+.boxx {
+  width: 150px;
+  height: 30px;
+  font-size: 1.5em;
+  text-align: center;
+  /* border-radius: 50px; */
+  /* background-color: rgb(160, 116, 75); */
+  /* top: 120px; */
+  /* left: 20px; */
+}
+
+.dic a {
+  color: rgb(14, 14, 13);
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.dic a:hover {
+  background-color: rgb(209, 144, 76);
+}
+
+/* 
+#boxx1 {
+  background-color: red;
+  /* align-self: center; */
+/* order: 1; */
+/* met le div 1er 
+  order: -1;
+}
+*/
+/* #boxx2 {
+  background-color: yellow;
+}
+#boxx3 {
+  background-color: green;
+}
+#boxx4 {
+  background-color: blue;
+}  */
+
+/* @@ */
+/* ************************************** */
+/* ************************************** */
+/* ************************************** */
+/* accueil */
+
+h1 {
+  font-size: 50px;
+  color: rgb(119, 68, 20);
+}
+
+#divpre {
+  /* border: 10px solid rgb(234, 151, 91); */
+  width: 650px;
+  float: left;
+}
+
+.p1 {
+  text-align: left;
+  font-size: 20px;
+  color: rgb(119, 68, 20);
+}
+aside {
+  /* 20% of bodywidth */
+  width: 20%;
+  float: left;
+  padding-left: 10px;
+}
+
+#section {
+  box-sizing: border-box;
+}
+
+section {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: auto;
+  text-align: center;
+}
+
+article {
+  /* pour laisser la place au padding = box size  */
+  float: right;
+  width: 35%;
+  padding-left: 10px;
+}
+
+#divFooter {
+  position: sticky;
+}
+
+footer {
+  /* display: block; */
+  /* permet de preciser le footer */
+  clear: both;
+
+  background-color: #d4780f;
+  text-align: center;
+  padding: 25px;
+}
+
+@media screen and (max-width: 600px) {
+  aside,
+  section,
+  article {
+    width: 100%;
+  }
+}
+
+#divPropos {
+  border: 10px solid rgb(234, 151, 91);
+}
+
+/* @@ */
+/* ************************************** */
+/* ************************************** */
+/* ************************************** */
+/*galerie*/
+body {
+  width: 100%;
+  height: 100%;
+  background: #f8ce9d;
+  /* display: flex; */
+  justify-content: start;
+}
+main {
+  margin: 20px;
+}
+
+/* #box1 {
+  border: 10px solid black;
+} */
+
+#divEspacement {
+  /* border: 10px solid rgb(234, 151, 91); */
+  height: 300px;
+}
+
+#boxx3 a::after {
+  transition: all 0.4s ease;
+}
+
+#Galerie {
+  /* border: 10px solid salmon; */
+  padding-bottom: 30px;
+  height: 30px;
+}
+.galery {
+  display: inline-block;
+  /* pas besoin */
+  /* border: 2px solid black; */
+  margin: 5px;
+  width: 200px;
+  /* border-radius: 50px; */
+}
+
+.galery .description {
+  padding: 10px;
+  text-align: center;
+}
+
+.galery:hover {
+  border: 4px solid black;
+  border-radius: 50px;
+}
+
+.galery img {
+  /* width 100% de largeur galery */
+  width: 100%;
+  height: 200px;
+  border-radius: 50px;
+}
+
+/* #speculos {
+  width: 350px;
+} */

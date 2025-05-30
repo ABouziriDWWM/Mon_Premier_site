@@ -1,0 +1,8 @@
+comment 
+
+doit faire readme
+
+versionnage
+voir commits
+
+git clone lien sort dossier
