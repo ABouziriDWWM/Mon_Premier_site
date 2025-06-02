@@ -87,60 +87,52 @@
 /* ************************************** */
 /* accueil */
 
-h1 {
-  font-size: 50px;
-  color: rgb(119, 68, 20);
+.box {
+  border: 2px solid whitesmoke;
+  /* padding espace dans le div (texte et bordure */
+  padding: 10px;
+  /* met les deux div a cote au lieu de dessous */
+  box-sizing: border-box;
+  height: auto;
+  /* width: 100px; mettre tout a gauche */
+  /*  par defaut */
+  /* width: auto; */
+  width: 50%;
+  /* float: left; */
+  /* chage la position des box */
+  float: left;
+
+  text-align: left;
+  /* max-width: 25%; */
+  /* min-width: 75%; enleve leffet de box sizing */
+
+  /* du contener parent */
+  min-height: 50%;
 }
 
-#divpre {
-  /* border: 10px solid rgb(234, 151, 91); */
-  width: 650px;
-  float: left;
+.box img {
+  float: inline-end;
+}
+
+/* pour tout les element(balises) on utilise * */
+/* * {
+  box-sizing: border-box;
+} */
+
+.box h1 {
+  font-size: 40px;
+}
+
+.Accueil {
+  border: 2px solid rgb(184, 53, 53);
+  /* vh viewport height */
+  height: 80vh;
 }
 
 .p1 {
   text-align: left;
   font-size: 20px;
   color: rgb(119, 68, 20);
-}
-aside {
-  /* 20% of bodywidth */
-  width: 20%;
-  float: left;
-  padding-left: 10px;
-}
-
-#section {
-  box-sizing: border-box;
-}
-
-section {
-  float: left;
-  width: 40%;
-  padding: 10px;
-  height: auto;
-  text-align: center;
-}
-
-article {
-  /* pour laisser la place au padding = box size  */
-  float: right;
-  width: 35%;
-  padding-left: 10px;
-}
-
-#divFooter {
-  position: sticky;
-}
-
-footer {
-  /* display: block; */
-  /* permet de preciser le footer */
-  clear: both;
-
-  background-color: rgb(192, 99, 12);
-  text-align: center;
-  padding: 25px;
 }
 
 @media screen and (max-width: 600px) {
@@ -151,8 +143,60 @@ footer {
   }
 }
 
-.divPropos {
-  border: 10px solid rgb(234, 151, 91);
+/* @@ */
+/* ************************************** */
+/* ************************************** */
+/* ************************************** */
+/*propos*/
+#Propos {
+  border: 10px solid salmon;
+  padding-bottom: 30px;
+  height: 30px;
+}
+
+.Propos {
+  border: 2px solid rgb(184, 53, 53);
+  /* vh viewport height */
+  height: 80vh;
+}
+
+.Propos h2 {
+  font-size: 40px;
+}
+.Propos p {
+  font-size: 30px;
+}
+.Propos li {
+  font-size: 40px;
+}
+
+.box1 {
+  border: 2px solid whitesmoke;
+  /* padding espace dans le div (texte et bordure */
+  padding: 20px;
+  /* met les deux div a cote au lieu de dessous */
+  box-sizing: border-box;
+  height: auto;
+  /* width: 100px; mettre tout a gauche */
+  /*  par defaut */
+  /* width: auto; */
+  width: 47%;
+  /* float: left; */
+  /* chage la position des box */
+  float: left;
+
+  text-align: left;
+  /* max-width: 25%; */
+  /* min-width: 75%; enleve leffet de box sizing */
+
+  /* du contener parent */
+  min-height: 50%;
+}
+
+.box1 img {
+  float: inline-end;
+  height: 300px;
+  width: 80%;
 }
 
 /* @@ */
@@ -167,32 +211,25 @@ body {
   /* display: flex; */
   justify-content: start;
 }
-main {
-  margin: 20px;
-}
-
-/* #box1 {
-  border: 10px solid black;
-} */
-
-#divEspacement {
-  /* border: 10px solid rgb(234, 151, 91); */
-  height: 300px;
-}
 
 #boxx3 a::after {
   transition: all 0.4s ease;
 }
 
-#Galerie {
+.divEspacement {
   /* border: 10px solid salmon; */
+  height: 100px;
+}
+
+#Galerie {
+  border: 10px solid salmon;
   padding-bottom: 30px;
-  height: 30px;
+  height: 100vh;
 }
 .galery {
   display: inline-block;
   /* pas besoin */
-  /* border: 2px solid black; */
+  /* border: 8px solid black; */
   margin: 5px;
   width: 200px;
   /* border-radius: 50px; */
