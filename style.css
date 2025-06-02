@@ -9,6 +9,9 @@
 /* ************************************** */
 /* ************************************** */
 /*  flexbox et barre de navigation*/
+.dropdown {
+  display: none;
+}
 
 .dic {
   /* change de colonne en ligne par defaut */
@@ -218,14 +221,14 @@ body {
 }
 
 .divEspacement {
-  /* border: 10px solid salmon; */
-  height: 100px;
+  border: 10px solid salmon;
+  height: 100vh;
 }
 
 #Galerie {
   border: 10px solid salmon;
   padding-bottom: 30px;
-  height: 100vh;
+  height: 120vh;
 }
 
 #Galerie h2 {
@@ -262,3 +265,100 @@ body {
 /* ************************************** */
 /* ************************************** */
 /*Contact*/
+
+/* @@ */
+/* ************************************** */
+/* ************************************** */
+/* ************************************** */
+/*Media Queries*/
+@media (max-width: 950px) {
+  .box1,
+  .box {
+    width: 100%;
+  }
+  /* .box1 img,
+  .box img {
+    display: none;
+  } */
+}
+
+/* Mobiles (écran ≤ 480px) */
+@media (max-width: 600px) {
+  /* @@ */
+  /* ************************************** */
+  /* ************************************** */
+  /* ************************************** */
+  /* dropdown menu */
+  .dropdown button {
+    background-color: #f8ce9d;
+    width: 60px;
+    height: auto;
+    padding: 10px 15px;
+    /* curseur devient pointeur qd il touche */
+    cursor: pointer;
+  }
+  .dropdown img {
+    width: 30px;
+    height: auto;
+    /* padding: 10px 15px; */
+  }
+  .dropdown a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+
+  .dropdown .content {
+    /* qd on appuit la liste sort */
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px whitesmoke;
+  }
+
+  /* faire sortir la liste */
+  .dropdown:hover .content {
+    display: block;
+  }
+
+  .dropdown:hover button {
+    background-color: #f8ce9d;
+  }
+  .dropdown a:hover {
+    background-color: blueviolet;
+  }
+
+  .dropdown {
+    /* inline marche aussi */
+    display: inline-block;
+  }
+
+  /* ************************************** */
+
+  .dic {
+    display: none;
+  }
+
+  .Propos,
+  #Galerie,
+  .box1,
+  .box {
+    width: 100%;
+  }
+
+  .box1 li,
+  .box1 p,
+  .box p {
+    font-size: 20px;
+  }
+
+  .box img {
+    display: none;
+  }
+
+  .box1 img {
+    width: 100%;
+  }
+}
