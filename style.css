@@ -43,7 +43,7 @@
 .boxx {
   width: 150px;
   height: 30px;
-  font-size: 1.5em;
+  font-size: 1.7em;
   text-align: center;
   /* border-radius: 50px; */
   /* background-color: rgb(160, 116, 75); */
@@ -112,6 +112,7 @@
 
 .box img {
   float: inline-end;
+  height: 750px;
 }
 
 /* pour tout les element(balises) on utilise * */
@@ -120,7 +121,7 @@
 } */
 
 .box h1 {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .Accueil {
@@ -131,7 +132,7 @@
 
 .p1 {
   text-align: left;
-  font-size: 20px;
+  font-size: 30px;
   color: rgb(119, 68, 20);
 }
 
@@ -226,6 +227,10 @@ body {
   padding-bottom: 30px;
   height: 100vh;
 }
+
+#Galerie h2 {
+  font-size: 50px;
+}
 .galery {
   display: inline-block;
   /* pas besoin */
@@ -252,6 +257,8 @@ body {
   border-radius: 50px;
 }
 
-/* #speculos {
-  width: 350px;
-} */
+/* @@ */
+/* ************************************** */
+/* ************************************** */
+/* ************************************** */
+/*Contact*/
