@@ -1,7 +1,15 @@
+@font-face {
+  font-family: GreatVibes;
+  src: url(fonts/GreatVibes-Regular.ttf);
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+  font-family: GreatVibes, cursive;
+  color: black;
+  letter-spacing: 0.05em;
 }
 
 /* @@ */
@@ -136,7 +144,9 @@
 .p1 {
   text-align: left;
   font-size: 30px;
-  color: rgb(119, 68, 20);
+  /* color: rgb(119, 68, 20); */
+  color: black;
+  letter-spacing: 0.05em;
 }
 
 @media screen and (max-width: 600px) {
@@ -213,7 +223,7 @@ body {
   height: 100%;
   background: #f8ce9d;
   /* display: flex; */
-  justify-content: start;
+  justify-content: center;
 }
 
 #boxx3 a::after {
@@ -222,17 +232,21 @@ body {
 
 .divEspacement {
   border: 10px solid salmon;
-  height: 100vh;
+  height: 10vh;
 }
 
 #Galerie {
+  display: flex;
   border: 10px solid salmon;
   padding-bottom: 30px;
   height: 120vh;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-#Galerie h2 {
+h2 {
   font-size: 50px;
+  text-align: center;
 }
 .galery {
   display: inline-block;
@@ -246,6 +260,8 @@ body {
 .galery .description {
   padding: 10px;
   text-align: center;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .galery:hover {
@@ -283,7 +299,7 @@ body {
 }
 
 /* Mobiles (écran ≤ 480px) */
-@media (max-width: 600px) {
+
   /* @@ */
   /* ************************************** */
   /* ************************************** */
@@ -293,14 +309,13 @@ body {
     background-color: #f8ce9d;
     width: 60px;
     height: auto;
-    padding: 10px 15px;
+    /* padding: 10px 15px; */
     /* curseur devient pointeur qd il touche */
-    cursor: pointer;
+    /* cursor: pointer; */
   }
   .dropdown img {
     width: 30px;
     height: auto;
-    /* padding: 10px 15px; */
   }
   .dropdown a {
     display: block;
