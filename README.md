@@ -25,28 +25,25 @@ _(Ajoutez une capture d'écran du site ici)_
 
 ```
 
-patisserie-site/
+MON_PREMIER_SITE/
 ├── index.html
-├── contact.html
-├── produits.html
-└── style.css
+|── style.css
 ├── images/
-│   ├── logo.png
-│   └── produits/
 └── README.md
 
 ```
 
 ## ✨ Fonctionnalités
 
-- Page d’accueil attractive avec un carrousel de produits
-- Présentation de la pâtisserie et de l’équipe
+- Page d’accueil attractive
+- A propos de la patisserie et l'évenement actuel
 - Galerie de produits avec visuels
-- Page de contact avec formulaire (non-fonctionnel en HTML pur)
+- Page de contact
+- PS: ce site ne marche pas en HTML pur
 
 ## 📱 Responsive Design
 
-Le site est entièrement responsive et s’adapte aux écrans de toutes tailles : smartphones, tablettes, ordinateurs.
+Le site est entièrement responsive et s’adapte aux écrans de toutes tailles : smartphones et ordinateurs.
 
 ## 🚀 Lancer le projet en local
 
@@ -63,19 +60,13 @@ Le site est entièrement responsive et s’adapte aux écrans de toutes tailles 
 
 Pour toute question ou suggestion, n’hésitez pas à me contacter :
 **Nom** : \[Amine]
-**Email** : \[[votre.email@example.com](mailto:votre.email@example.com)]
-**GitHub** : \[Votre profil GitHub]
+**Email** : \[[A.Bouziri.DWWM@gmx.fr](mailto:[A.Bouziri.DWWM@gmx.fr)]
+**GitHub** : \[ABouziriDWWM]
 
 ---
 
-*Projet réalisé dans un cadre d’apprentissage ou de démonstration.*
+*Projet réalisé dans un cadre d’apprentissage.*
 
 🍓 Merci pour votre visite, et bon appétit visuel !
 
 ```
-
----
-
-Souhaitez-vous que je vous génère un exemple de design HTML/CSS pour accompagner ce README ? [Créer une maquette de site vitrine](f) ou [ajouter une section blog/actualités](f) ?
-```
-````
