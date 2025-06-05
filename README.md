@@ -4,7 +4,7 @@ Bienvenue dans le dépôt du site vitrine **Patisseire des délices**, une déli
 
 ## 🎯 Objectifs
 
-- Présenter la pâtisserie et son univers
+- Présenter la pâtisserie
 - Mettre en valeur les produits (gâteaux, viennoiseries, tartes…)
 - Offrir un design responsive et élégant
 - Fournir les informations essentielles : horaires, adresse, contact
