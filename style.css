@@ -106,8 +106,6 @@ body {
 /* Accueil */
 
 .box {
-  border: 5px solid salmon;
-  /* margin-right: 21vh; */
   margin-left: 10vh;
 
   /* met les deux div a cote au lieu de dessous */
@@ -128,17 +126,11 @@ body {
   width: 40%;
 }
 
-/* pour tout les element(balises) on utilise * */
-/* * {
-  box-sizing: border-box;
-} */
-
 .box h1 {
   font-size: 70px;
 }
 
 .Accueil {
-  /* border: 2px solid rgb(184, 53, 53); */
   /* vh viewport height */
   height: 80vh;
 }
@@ -146,7 +138,6 @@ body {
 .p1 {
   text-align: left;
   font-size: 30px;
-  /* color: rgb(119, 68, 20); */
   color: black;
   letter-spacing: 0.05em;
 }
@@ -157,13 +148,11 @@ body {
 /* ******************* */
 /*propos*/
 #Propos {
-  /* border: 10px solid salmon; */
   padding-bottom: 30px;
   height: 100vh;
 }
 
 .Propos {
-  /* border: 2px solid rgb(184, 53, 53); */
   padding-top: 30vh;
   /* vh viewport height */
   height: 55vh;
@@ -221,9 +210,6 @@ body {
   padding-top: 10vh;
   margin-top: 10vh;
   display: flex;
-  /* flex-direction: row; */
-  /* border: 10px solid salmon; */
-  /* padding-bottom: 30px; */
   flex-wrap: wrap;
   /* centre horizontalement */
   align-items: center;
@@ -236,8 +222,6 @@ body {
   height: 10vh;
   font-size: 50px;
   text-align: center;
-
-  /* padding-bottom: 30vh; */
 }
 
 #boxx3 a::after {
@@ -246,11 +230,9 @@ body {
 
 .galery {
   display: inline-block;
-  /* pas besoin */
-  /* border: 8px solid black; */
+
   margin: 5px;
   width: 200px;
-  /* border-radius: 50px; */
 }
 
 .galery .description {
@@ -261,7 +243,7 @@ body {
 }
 
 .galery:hover {
-  border: 4px solid black;
+  border: 4px solid rgb(22, 93, 137);
   border-radius: 50px;
 }
 
@@ -341,7 +323,6 @@ body {
   }
 }
 
-/* Mobiles (écran ≤ 480px) */
 @media (max-width: 600px) {
   /* @@ */
   /* ******************* */
