@@ -11,7 +11,7 @@ Bienvenue dans le dépôt du site vitrine **Patisseire des délices**, une déli
 
 ## 📸 Aperçu
 
-![Aperçu du site](chemin/vers/aperçu.jpg)  
+![Aperçu du site](images/site_vitrine.png)  
 _(Ajoutez une capture d'écran du site ici)_
 
 ## 🛠 Technologies utilisées
