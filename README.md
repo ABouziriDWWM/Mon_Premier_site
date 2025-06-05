@@ -1,4 +1,4 @@
-# 🍰 Site Vitrine - Pâtisserie Douce Saveur
+# 🍰 Site Vitrine - Pâtisserie Des Délices
 
 Bienvenue dans le dépôt du site vitrine **Patisseire des délices**, une délicieuse pâtisserie artisanale. Ce projet a été développé en **HTML** et **CSS** pour mettre en valeur les créations sucrées et attirer de nouveaux clients.
 
