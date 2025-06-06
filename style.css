@@ -36,25 +36,7 @@ body {
   background-color: #d4780f;
   position: sticky;
   top: 0px;
-  /* inverse */
-  /* flex-direction: row-reverse; */
-  /* flex-direction: column-reverse; */
-  /* place tout a droite */
-  /* justify-content: flex-end; */
-  /* ca marche sans enlever la ligne prec */
   justify-content: center;
-  /* justify-content: space-between; */
-  /* espacer partout */
-  /* justify-content: space-around; */
-  /* justify-content: space-evenly; */
-
-  /* align-items: flex-end; */
-  /* align-items: center; */
-  /* align-content: center; */
-  /* ca marche avec wrap  */
-  /* flex-wrap: wrap-reverse; */
-  /* column-gap: 1em; */
-  /* row-gap: 2em; */
 }
 
 .boxx {
@@ -79,25 +61,6 @@ body {
 .dic a:hover {
   background-color: rgb(209, 144, 76);
 }
-
-/* 
-#boxx1 {
-  background-color: red;
-  /* align-self: center; */
-/* order: 1; */
-/* met le div 1er 
-  order: -1;
-}
-*/
-/* #boxx2 {
-  background-color: yellow;
-}
-#boxx3 {
-  background-color: green;
-}
-#boxx4 {
-  background-color: blue;
-}  */
 
 /* @@ */
 /* ******************* */
@@ -153,7 +116,7 @@ body {
 /* ******************* */
 /*propos*/
 #Propos {
-  padding-bottom: 30px;
+  margin-bottom: 60vh;
   height: 100vh;
 }
 
@@ -161,7 +124,7 @@ body {
   animation-name: fade;
   animation-duration: 4s;
 
-  padding-top: 30vh;
+  margin-top: 20em;
   /* vh viewport height */
   height: 55vh;
 }
@@ -230,8 +193,6 @@ body {
 }
 
 .h2galerie {
-  padding-top: 20vh;
-  margin-top: 30vh;
   height: 10vh;
   font-size: 50px;
   text-align: center;
@@ -333,6 +294,12 @@ body {
 /* ******************* */
 /* ******************* */
 /*Media Queries*/
+/* @media (max-width: 1350px) {
+  .box1 {
+    max-width: 40%;
+  } 
+}*/
+
 @media (max-width: 1100px) {
   .box,
   .box1 {
@@ -365,9 +332,6 @@ body {
     background-color: #f8ce9d;
     width: 60px;
     height: auto;
-    /* padding: 10px 15px; */
-    /* curseur devient pointeur qd il touche */
-    /* cursor: pointer; */
   }
 
   .dropdown img {
