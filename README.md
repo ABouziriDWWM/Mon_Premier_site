@@ -68,5 +68,6 @@ Pour toute question ou suggestion, n’hésitez pas à me contacter :
 *Projet réalisé dans un cadre d’apprentissage.*
 
 🍓 Merci pour votre visite, et bon appétit visuel !
-
+©️©️©️
 ```
+````
